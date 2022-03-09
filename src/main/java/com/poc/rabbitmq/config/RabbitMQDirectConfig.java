@@ -34,7 +34,7 @@ public class RabbitMQDirectConfig {
     @Bean
     public Jackson2JsonMessageConverter jackson2JsonMessageConverter() {
         return new Jackson2JsonMessageConverter();
-    }ml
+    }
 
     @Bean
     Queue marketingQueue() {
